@@ -1,0 +1,124 @@
+body{
+    background-color: #36393f;
+    color: white;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #151618;
+    width: 100%;
+    height: 150px;
+    z-index: 1;
+}
+main{
+    margin-top: 220px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+section{
+    margin:10px 10px 10px 10px;
+    border: solid #151618 3px;
+    border-radius: 20px;
+    padding: 15px;
+}
+.manchete{
+    text-align: center;
+    font-size: 25px;
+}
+.texto{
+    text-align: justify;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+a:hover{
+    cursor: pointer;
+}
+a:link{
+    color: rgb(179, 179, 179);
+}
+
+a:visited{
+    color: rgb(4, 164, 204);
+}
+#ultimas{
+    text-align: center;
+    font-size: 50px;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-name: ultimas;
+    animation-iteration-count: infinite;
+    position: relative !important;
+    width: 30%;
+    height: 100px;
+    margin: 10px;
+}
+@keyframes ultimas{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    25%{
+        transform: rotateZ(10deg);
+    }
+    50%{
+        transform: rotateZ(0deg);
+    }
+    75%{
+        transform: rotateZ(-10deg);
+    }
+}
+#menu ul{
+    text-decoration: none;
+    list-style: none;
+    
+   
+}
+#menu > li{
+    display: inline;
+    margin: 30px;
+    border: solid #36393f 2px;
+    color: white;
+    border-radius: 3px;
+     padding: 10x;
+}
+#menu > li:hover{
+    background-color: black;
+
+}
+#menu{
+    display: flex;
+    justify-content: center;
+    font-size: 17pt;
+    margin-bottom: -20;
+    margin-top: -35;
+    padding: 5px;
+}
+.cabecalho{
+    font-size: 320%;
+    text-align: center;
+    margin-top: -10;
+    margin-bottom: -30;
+}
+.cabecalho1{
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: -20;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+footer{
+    background-color: #151618;
+    text-align: center;
+    font-size: 30px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
